@@ -1,0 +1,7 @@
+[package]
+name = "iterations"
+version = "0.1.0"
+authors = ["cheng"]
+edition = "2018"
+
+[dependencies]
