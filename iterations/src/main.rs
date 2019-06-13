@@ -50,7 +50,7 @@ fn old_school_while() {
 fn index_of_demo() {
     let v = vec![1, 2, 3, 4, 5, 6];
     /**
-     * return a Option(index), add rev() if lastIndexOf
+     * return a Option(index), add rev() or using rposition if lastIndexOf
      */
     let index = v.iter().position(|&value| value == 3);
     println!("index is {:?}", index);
